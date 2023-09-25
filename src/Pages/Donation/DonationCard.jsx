@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DonationCard = ({ donation }) => {
   // Destructure the 'donation' prop directly
   const {
@@ -11,19 +13,21 @@ const DonationCard = ({ donation }) => {
     description,
     price,
   } = donation || {};
-const textColor={
-    color:text_button_bg || "red"
-}
+  const textColor = {
+    color: text_button_bg || "red",
+  };
   // Define an inline style object to set the background color
   const cardStyle = {
     backgroundColor: card_bg || "transparent", // Use 'card_bg' or fallback to transparent
   };
-  const textstyle={
-    backgroundColor: category_bg ||"transparent" 
-  }
+  const textstyle = {
+    backgroundColor: category_bg || "transparent",
+  };
 
   return (
-    <div
+ <Link to={`/donation/${id}`}>
+ 
+ <div
       className="relative flex flex-col rounded-xl bg-clip-border text-gray-700 shadow-md"
       style={cardStyle}
     >
@@ -36,10 +40,12 @@ const textColor={
       </div>
 
       <div className="flex justify-start px-8 py-5 ">
-  <span className="bg-white p-2 rounded-md"style={textstyle} >
-    <p className="text-xs" style={textColor}>{category}</p>
-  </span>
-</div>
+        <span className="bg-white p-2 rounded-md" style={textstyle}>
+          <p className="text-xs" style={textColor}>
+            {category}
+          </p>
+        </span>
+      </div>
 
       <div className="p-6">
         <div className=" flex justify-between">
@@ -49,6 +55,8 @@ const textColor={
         </div>
       </div>
     </div>
+ 
+ </Link>
   );
 };
 

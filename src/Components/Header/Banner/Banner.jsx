@@ -6,7 +6,7 @@ const Banner = () => {
       className="relative bg-cover bg-center h-[70vh]"
       
       style={{
-        backgroundImage: "url('/public/assets/Rectangle 4281.png')",
+        backgroundImage: "url('/assets/Rectangle 4281.png')",
       }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
