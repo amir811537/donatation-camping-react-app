@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "picture": "/public/assets/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "price": "$199.99"
+  },
+  {
+    "id": "2",
+    "picture": "/public/assets/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#FF444A26",
+    "card_bg": "#FF573326",
+    "text_button_bg": "#FF5733",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": "$49.99"
+  },
+  {
+    "id": "3",
+    "picture": "/public/assets/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#2ECC7133",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#2ECC71",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "price": "$79.99"
+  },
+  {
+    "id": "4",
+    "picture": "/public/assets/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#9B59B633",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#9B59B6",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "price": "$29.99"
+  },
+  {
+    "id": "5",
+    "picture": "/public/assets/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+    "price": "$39.99"
+  },
+  {
+    "id": "6",
+    "picture": "/public/assets/Education.png",
+    "title": "Good education ",
+    "category": "Education",
+    "category_bg": "#FF444A26",
+    "card_bg": "#FF573326",
+    "text_button_bg": "#FF5733",
+    "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "price": "$59.99"
+  },
+  {
+    "id": "7",
+    "picture": "/public/assets/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#2ECC7133",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#2ECC71",
+    "description": "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    "price": "$149.99"
+  },
+  {
+    "id": "8",
+    "picture": "/public/assets/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#9B59B633",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#9B59B6",
+    "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    "price": "$69.99"
+  },
+  {
+    "id": "9",
+    "picture": "/public/assets/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    "price": "$89.99"
+  },
+  {
+    "id": "10",
+    "picture": "/public/assets/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#FF444A26",
+    "card_bg": "#FF573326",
+    "text_button_bg": "#FF5733",
+    "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "price": "$19.99"
+  },
+  {
+    "id": "11",
+    "picture": "/public/assets/Clothing.png",
+    "title":"Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#2ECC7133",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#2ECC71",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "price": "$29.99"
+  },
+  {
+    "id": "12",
+    "picture": "/public/assets/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#9B59B633",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#9B59B6",
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "price": "$79.99"
+  }
+]
