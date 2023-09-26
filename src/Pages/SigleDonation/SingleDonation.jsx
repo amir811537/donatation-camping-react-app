@@ -46,7 +46,8 @@ if(!isExits){
           <div className="">
             <button
               onClick={handelAddToDonation}
-              className="btn bg-[#FF444A] rounded px-2 py-3 text-white absolute   lg:top-[750px] lg:left-[40px]  "
+              className="btn rounded px-2 py-3 text-white absolute   lg:top-[750px] lg:left-[40px]  "
+              style={{ backgroundColor: sigleDonation.text_button_bg }}
             >
               Donate now : {sigleDonation.price}
             </button>
