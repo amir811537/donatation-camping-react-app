@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { json, useLoaderData, useParams } from "react-router-dom";
+import {  useLoaderData, useParams } from "react-router-dom";
 import swal from "sweetalert";
 
 const SingleDonation = () => {
