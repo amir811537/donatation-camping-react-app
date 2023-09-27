@@ -43,7 +43,7 @@ if(!isExits){
       {sigleDonation && (
         <>
           <img src={sigleDonation.picture} alt="" className="w-full" />
-          <div className="">
+       
             <button
               onClick={handelAddToDonation}
               className="btn rounded px-2 py-3 text-white absolute   lg:top-[750px] lg:left-[40px]  "
@@ -51,7 +51,7 @@ if(!isExits){
             >
               Donate now : {sigleDonation.price}
             </button>
-          </div>
+         
         </>
       )}
 

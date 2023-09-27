@@ -1,8 +1,7 @@
-# React + Vite
+Project Features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.  In this website, I have dynamically routed one page to another.
 
-Currently, two official plugins are available:
+2.  This website includes a navigation bar with three paths (Home, Statistics, Donations). When users click on these paths, the website routes them accordingly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.  In this website, I have added local storage for donation data. When a user clicks the donation button to contribute money, the system stores this donation data locally. Later, it displays donation statistics using pie charts based on the data stored in local storage.

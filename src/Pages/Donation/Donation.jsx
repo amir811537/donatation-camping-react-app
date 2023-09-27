@@ -35,7 +35,7 @@ const Donation = () => {
           >
             Delate All data
           </button>
-          <h1>Total price:{totadotations}</h1>
+          
         </div>
       )}
 

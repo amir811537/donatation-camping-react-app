@@ -1,4 +1,3 @@
-
 import {
   PieChart,
   Pie,
@@ -45,10 +44,16 @@ const Statistics = () => {
       </ResponsiveContainer>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ margin: "10px" }}>
+         <div className="flex items-center gap-2">
+         <h1 className="bg-[#00C49F] w-5 h-5 text-[#00C49F]"></h1>
           <p>Your Donation: {yourDonationPercentage}%</p>
+         </div>
         </div>
         <div style={{ margin: "10px" }}>
+     <div className="flex items-center gap-2 ">
+     <h1 className="bg-[#FF444A] w-5 h-5 text-[#FF444A]"></h1>
           <p>Total Donation: {100 - Number(yourDonationPercentage)}%</p>
+     </div>
         </div>
       </div>
       <Legend align="center" verticalAlign="bottom" />
