@@ -16,6 +16,7 @@ const ErrorPage = () => {
                         </div>
                     </div>
                 </div>
+                <div></div>
             </div>
         </section>
     );

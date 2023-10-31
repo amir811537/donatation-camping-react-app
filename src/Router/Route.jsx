@@ -5,6 +5,8 @@ import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import SingleDonation from "../Pages/SigleDonation/SingleDonation";
+// import { Footer } from "flowbite-react";
+// import Footerdonation from "../Pages/FOOter/Footerdonation";
 
 const myCreateRouter = createBrowserRouter([
   {
@@ -32,7 +34,11 @@ const myCreateRouter = createBrowserRouter([
       element:<SingleDonation></SingleDonation>,
       loader:()=>fetch('/Donation.json')
 
-      }
+      },
+      // {
+      //   path:'/footer',
+      //   element:<Footerdonation></Footerdonation>
+      // }
     ],
   },
 ]);

@@ -42,7 +42,7 @@ const DonationCard = ({ donation }) => {
       <div className="flex justify-start px-8 py-5 ">
         <span className="bg-white p-2 rounded-md" style={textstyle}>
           <p className="text-xs" style={textColor}>
-            {category}
+            {category} 
           </p>
         </span>
       </div>
